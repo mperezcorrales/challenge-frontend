@@ -36,8 +36,8 @@ const TruckListTable = ({truckData}) => {
                             <TableCell align="right">{row.licensePlate}</TableCell>
                             <TableCell align="right">{row.allowedWeight}</TableCell>
                             <TableCell align="right">{row.currentCargoWeight}</TableCell>
-                            <TableCell align="right">{row.currentNumberOfPallets}</TableCell>
                             <TableCell align="right">{row.maxNumberOfPallets}</TableCell>
+                            <TableCell align="right">{row.currentNumberOfPallets}</TableCell>
                             <TableCell align="right">{getFormattedDate(row.updatedAt, "DD-MM-YYYY HH:mm:SS")}</TableCell>
                         </TableRow>
                     ))}
